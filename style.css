@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    
+}
+.navbar{
+    border-right-style: groove;
+    width: 350px;
+   position: fixed;
+   height: 100%;
+   overflow-y: scroll;
+}
+.navbar ul{
+   display: block;
+   list-style-type: disc;
+   overflow-x: hidden;
+   position: relative;
+}
+.navbar ul li{
+ list-style: none;
+ border-top-style: groove;
+ padding: 20px;
+ text-align: center;
+ display: list-item;
+ position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.sect{
+    position: relative;
+    margin-left: 350px;
+    padding-left: 20px;
+    padding-right: 30px;
+    overflow-x: hidden;
+
+}
+#introduction{
+    margin-top: 20px;
+    line-height: 20px;
+}
+#introduction h1{
+    padding: 20px;
+}
+#introduction article{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#introduction ul{
+    margin-top: 10px;
+}
+#introduction ul li{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+#toknowbefore{
+    margin-top: 20px;
+    line-height: 20px;
+}
+#toknowbefore h1{
+    padding: 20px;
+}
+#toknowbefore article{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#toknowbefore ul{
+    margin-top: 10px;
+}
+#toknowbefore ul li{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+#javascript{
+    margin-top: 20px;
+    line-height: 20px;
+}
+#javascript h1{
+    padding: 20px;
+}
+#javascript article{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#hello{
+    margin-top: 20px;
+    line-height: 20px;
+}
+#hello h1{
+    padding: 20px;
+}
+#hello article{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#hello pre{
+    padding: auto;
+    margin: 20px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 3px;
+}
+#Variables{
+    margin-top: 20px;
+    line-height: 20px;
+}
+#Variables h1{
+    padding: 20px;
+}
+#Variables article{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#declaringvariables{
+    margin-top: 20px;
+    line-height: 20px;
+}
+#declaringvariables h1{
+    padding: 20px;
+}
+#declaringvariables article{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#declaringvariables pre{
+    padding: auto;
+    margin: 20px;
+    background-color:rgb(233, 233, 233);
+    border-radius: 3px;
+}
+#variablescope{
+    margin-top: 20px;
+    line-height: 20px;
+}
+#variablescope h1{
+    padding: 20px;
+}
+#variablescope article{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#variablescope pre{
+    padding: auto;
+    margin: 20px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 3px;
+}
+#globalvariables{
+    margin-top: 20px;
+    line-height: 20px;
+}
+#globalvariables h1{
+    padding: 20px;
+}
+#globalvariables article{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#constants{
+    margin-top: 20px;
+    line-height: 20px;
+}
+#constants h1{
+    padding: 20px;
+}
+#constantsarticle{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#constants pre{
+    padding: auto;
+    margin: 20px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 3px;
+}
+#datatypes{
+    margin-top: 20px;
+    line-height: 20px;
+}
+#datatypes h1{
+    padding: 20px;
+}
+#datatypes article{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#datatypes ul{
+    margin-top: 10px;
+}
+#datatypes ul li{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+#ifelsestatement{
+    margin-top: 20px;
+    line-height: 20px;
+}
+#ifelsestatement article{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#ifelsestatement ul{
+    margin-top: 10px;
+}
+#ifelsestatement ul li{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+#ifelsestatement pre{
+    padding: auto;
+    margin: 20px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 3px;
+}
+#whilestatement{
+    margin-top: 20px;
+    line-height: 20px;
+}
+#whilestatement h1{
+    padding: 20px;
+}
+#whilestatement article{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#whilestatement ul{
+    margin-top: 10px;
+}
+#whilestatement ul li{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+#whilestatement pre{
+    padding: auto;
+    margin: 20px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 3px;
+}
+#functiondeclarations{
+    margin-top: 20px;
+    line-height: 20px;
+}
+#functiondeclarations h1{
+    padding: 20px;
+}
+#functiondeclarations article{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#functiondeclarations ul{
+    margin-top: 10px;
+}
+#functiondeclarations ul li{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+#functiondeclarations pre{
+    padding: auto;
+    margin: 20px;
+    background-color:  rgb(233, 233, 233);
+    border-radius: 3px;
+}
+#reference{
+    margin-top: 20px;
+    line-height: 20px;
+}
+#reference h1{
+    padding: 20px;
+}
+#reference article{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+@media screen and (max-width: 700px) {
+.main{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    position: relative;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid;
+    display: block;
+}
+.sect{
+    position: relative;
+    margin-top: 250px;
+    padding: 0%;
+    margin-left: auto;
+    margin-right: 20px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    display: block;
+}
+  
+}
